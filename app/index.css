@@ -1,4 +1,28 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
 body {
-	background: black;
-	color: white;
+	font-family: 'Roboto', sans-serif;
+}
+
+ul {
+	padding: 0;
+}
+
+li {
+	list-style-type: none;
+}
+
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.languages {
+	display: flex;
+	justify-content: center;
+}
+
+.languages li {
+	margin: 10px;
+	font-weight: bold;
+	cursor: pointer;
 }
